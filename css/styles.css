@@ -3,12 +3,12 @@
 /* Paleta de colores */
 
 :root{
-    --blue-hard: #00A2E9;
+    --blue-soft: #00A2E9;
     --blue-medium:#003BB2 ;
-    --blue-soft: #1207A6 ;
-    --red-hard: #FF3F3F;
+    --blue-hard: #1207A6 ;
+    --red-soft: #FF3F3F;
     --red-medium: #FF0000;
-    --red-soft: #D70000;
+    --red-hard: #D70000;
 }
 
 
@@ -32,11 +32,75 @@ h1, h2, h3, h4, h5, h6{
     font-family: "Merriweather", serif;
 }
 
+a{
+    text-decoration: none!important;
+}
+
+
 
 /* ================ Fin Estilos Globales ================*/
 
 
 
+/* ================ Inicio Estilos Cabecera ================*/
+
+header{
+    padding: 15px 0px;
+}
+
 .logo-radio{
     width: 120px;
 }
+
+.navbar-container-one{
+    display: flex;
+    justify-content: center;
+    column-gap: 14px;
+}
+
+
+/* ================ Fin Estilos Cabecera ================*/
+
+
+/* ================ Inicio Jerarquías de Texto ================*/
+
+.p-icon-navbar{
+    font-size: 30px;
+}
+
+
+/* ================ Fin Jerarquías de Texto ================*/
+
+
+
+
+/* ================ Inicio Hipervínculos ================*/
+
+.enlace-icon-nav{
+    color: var(--blue-medium); 
+ }
+ 
+ .enlace-icon-nav:hover{
+     color: var(--red-medium); 
+ }
+
+/* ================ Fin Hipervínculos ================*/
+
+
+/* ================ Inicio Botones ================*/
+
+.btn-style-1{
+   background-color: var(--blue-medium);
+   color: white; 
+   padding: 12px 30px;
+   border-radius: 20px;
+   font-size: 18px;
+   font-weight: 700;
+}
+
+.btn-style-1:hover{
+    background-color: var(--red-medium);
+ }
+
+
+/* ================ Fin Botones ================*/
