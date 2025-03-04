@@ -105,3 +105,27 @@ header{
 
 
 /* ================ Fin Botones ================*/
+
+
+/* ================ Inicio Media Queries ================*/
+
+@media screen and (max-width: 991px){    /*Medium*/
+    .navbar-container-one{
+        justify-content: space-between;
+    }
+}
+
+@media screen and (max-width: 767px){    /*Small*/
+    .navbar-container-one{
+        justify-content: space-around;
+    }
+}
+
+
+@media screen and (max-width: 575px){    /*Extra Small*/
+    .navbar-container-one{
+        justify-content: space-around;
+    }
+}
+
+/* ================ Fin Media Queries ================*/
